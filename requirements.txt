@@ -1,0 +1,14 @@
+# --- Dependencias principales ---
+ultralytics>=8.2.0       # Para el modelo YOLO y tracking
+opencv-python>=4.8.0     # Para procesamiento y visualización de video
+numpy>=1.24.0            # Para operaciones numéricas
+flask>=3.0.0             # Para el servidor HTTP MJPEG
+werkzeug>=3.0.0          # Servidor WSGI usado por Flask
+
+# --- Opcional / recomendadas ---
+# (Estas suelen instalarse con ultralytics, pero se listan por claridad)
+torch>=2.0.0             # Backend de inferencia (PyTorch)
+requests>=2.31.0         # Usado internamente por ultralytics
+tqdm>=4.65.0             # Barras de progreso en Ultralytics
+psutil>=5.9.0            # Gestión de dispositivos y procesos
+
