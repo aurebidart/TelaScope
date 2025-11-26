@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.tmp
+
+# Entornos
+.venv/
+venv/
+env/
+
+# Salidas del sistema
+runs_infer/
+*.csv
+
+# Videos generados
+*.mp4
+*.avi
+*.mkv
+
+# Modelos grandes opcionales
+# best.pt
+
